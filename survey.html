@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PENAMAI: Survey</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my blog !</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="myblog.html">My Blog</a></li>
+            <li><a href="survey.html">Survey</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Survey form</h2>
+        <form>
+            <label>Your background:</label>
+            <input type="radio" id="student" name="bgradio" value="Student">
+            <label for="student">Student</label>
+            <input type="radio" id="softdev" name="bgradio" value="Software Developer">
+            <label for="softdev">Software Developer</label>
+            <input type="radio" id="other" name="bgradio" value="Other">
+            <label for="other">Other</label><br/>
+            <label for="feel">How do you feel about my blog</label>
+            <select id="feel" name="feel">
+                <option value="">--Please choose your answer--</option>
+            </select><br/>
+            <label>The topics that you want me to share:</label>
+            <input type="checkbox" id="git" name="topics" value="Git">
+            <label for="git">Git</label>
+            <input type="checkbox" id="css" name="topics" value="CSS">
+            <label for="git">CSS</label>
+            <input type="checkbox" id="html" name="topics" value="HTML">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="js" name="topics" value="JavaScript">
+            <label for="js">JavaScript</label><br/>
+            <label>Your feedback:</label><br/>
+            <textarea name="feedback" rows="10" cols="30"></textarea><br/>
+            <label for="blogid">Your blog id:</label>
+            <input type="text" id="blogid" name="blogid"><br/>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        © 2022 Thoughtworks
+    </footer>
+</body>
+</html>
